@@ -1,0 +1,227 @@
+body {
+  background-color: rgb(251, 249, 249);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+
+
+.container{
+  width: 500px;
+}
+
+.section {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: block;
+
+  
+}
+
+.profile{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+
+}
+
+/*.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+*/
+
+.introducing-box{
+  
+  background-color: #b2d7ff;
+  width: 300px; 
+  padding: 15px;
+  
+  
+}
+
+.introducing-box p{
+  font-family: 'Malgun Gothic', serif;
+  font-weight: bold;
+}
+
+.dark {
+  background-color: #222;
+  color:white;
+}
+
+.goal-section {
+  margin-top:40px;
+  padding:24px;
+  border-radius:16px;
+  background-color: #f5f5f5;
+}
+
+.goal-description {
+  color: #555;
+}
+
+.goal-input-box {
+  display:flex;
+  gap:8px;
+  margin-top:16px;
+}
+
+#goalInput {
+  flex:1;
+  padding:10px;
+  border:1pxsolid #ddd;
+  border-radius:8px;
+}
+
+#addGoalBtn {
+  padding:10px16px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+#errorMessage {
+  color:crimson;
+  min-height:20px;
+}
+
+#goalCount {
+  font-size:14px;
+  color: #555;
+}
+
+#goalList {
+  margin-top:16px;
+  padding-left:0;
+  list-style:none;
+}
+
+.goal-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom:8px;
+  padding:12px;
+  border-radius:10px;
+  background-color:white;
+}
+
+.goal-text {
+  cursor:pointer;
+}
+
+.goal-text.done {
+  color:gray;
+  text-decoration:line-through;
+}
+
+.delete-btn {
+  border:none;
+  background-color:transparent;
+  cursor:pointer;
+}
+
+.guestbook-section {
+  max-width: 500px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.guestbook-section h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#server-msg, #my-msg {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.write-area {
+  display: flex;
+  gap: 10px;
+}
+
+#guest-name {
+  width: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#guest-msg {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#guest-name:focus, #guest-msg:focus {
+  border-color: #82bdfc;
+}
+
+#submit-btn {
+  padding: 10px 15px;
+  background-color: #82bdfc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/** {
+  color: gray;
+}
+
+li {
+  color: rgb(16, 16, 16);
+}
+
+/* 주석 */
+/*
+.special {
+  color: red;
+}
+
+.lightgreen {
+  background: lightgreen;
+}
+
+.cyan {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+}
+
+button:hover {
+  color: red;
+}
+*/

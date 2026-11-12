@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>자기소개 페이지</title>
+		<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+    <div class="container">
+     <div class="header">
+       <h1>Profile</h1>
+       <section class="intro-box">
+	      <h2>About Me</h2>
+
+	      <p id="introText">
+	       안녕하세요. 저는 웹 개발을 배우고 있습니다.
+	      </p>
+
+	      <button id="changeIntroBtn">소개 문구 바꾸기</button>
+        <button id="themeBtn">다크모드</button>
+        </section>
+      <button>편집</button>
+      <button id="changeBtn">문구 바꾸기</button>
+      <p id="result">아직 버튼을 누르지 않았습니다.</p>
+    </div>
+  
+    <div class="profile">
+       <img src="./image.jpg" alt="profile" width="200" height="200">
+      <h2>채보민</h2>
+      <h3>
+         <div class="contact">
+          <ul>
+          <li>010-2505-6677</li>
+          <li>bm060526@naver.com</li>
+          </ul>
+        경북대학교 전자공학부 2학년
+      </h3>
+    </div>
+    </div>
+  
+  <div class="introducing-box">
+    
+    <h3>#MBTI</h3>
+    <p>ISFP</p>
+
+    <h3>#Interests</h3>
+    <p>음악 듣기</p>
+
+    <h3>#Pros and Cons</h3>
+    <p>장점:차분하다</p>
+    <p>단점:느리다</p>
+  </div>
+
+  <section class="goal-section">
+	<h2>My Goals</h2>
+	<p class="goal-description">
+    앞으로 이루고 싶은 목표를 체크리스트로 관리해보세요.
+	</p>
+
+	<div class="goal-input-box">
+		<input
+			id="goalInput"
+			type="text"
+			placeholder="예: JavaScript로 자기소개 페이지 완성하기"
+		>
+		<button id="addGoalBtn">추가</button>
+	</div>
+
+	<p id="errorMessage"></p>
+	<p id="goalCount">현재 목표 0개</p>
+	<ul id="goalList"></ul>
+</section>
+
+<div class="guestbook-section">
+  <h3>방명록</h3>
+  
+  <p id="server-msg">데이터를 불러오는 중입니다...</p>
+
+  <p id="my-msg">아직 작성된 새 방명록이 없습니다.</p>
+
+  <div class="write-area">
+    <input type="text" id="guest-name" placeholder="이름">
+    <input type="text" id="guest-msg" placeholder="응원 한마디 남겨주세요!">
+    <button id="submit-btn">등록</button>
+  </div>
+</div>
+
+  
+
+    <!--<h3>h3 테스트 글씨입니다.</h3>
+    <p>HTML, CSS을 직접한번 사용해봅시다.</p>-->
+	<!-- 여기는 주석입니다! 
+
+
+    <ol>
+      <li class="special">HTML</li>
+      <li>CSS</li>
+      <li class="special">JavaScript</li>
+    </ol>
+
+    <ul>
+      <li class="special">HTML</li>
+      <li>CSS</li>
+      <li class="special">JavaScript</li>
+    </ul>
+
+    <div class="lightgreen">square</div>
+    <div class="cyan"></div>
+
+    <button>button</button>-->
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
